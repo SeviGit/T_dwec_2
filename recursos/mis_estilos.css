@@ -1,0 +1,13 @@
+.mybtn{
+    width: 100px;
+    padding: 5px;
+    color: #06919b;
+    border-color: cadetblue;  
+    border-radius: 5px;
+}
+
+.mybtn:hover{
+    background-color:#b0d6d8 ;
+    color:rgb(61, 60, 60);
+}
+

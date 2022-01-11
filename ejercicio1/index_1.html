@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../recursos/mis_estilos.css">
+    <title>Tarea 02 DWEC</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h1 class="text-center mb-3">Desarrollo Web Entorno Cliente</h1>
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+                    <div class="container-fluid ">
+                        <div class="col-3" ><img class="rounded-3" src="../recursos/imagenes/DWEC.png" alt="Logo" width="90"></div>        
+                        <div class="col-9 collapse navbar-collapse show " id="navbarDark">
+                            <ul class="navbar-nav me-auto mb-2 mb-xl-0 ms-4">                             
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../ejercicio1/index_1.html">Ejercicio 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ejercicio2/index_2.html">Ejercicio 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ejercicio3/index_3.html">Ejercicio 3</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ejercicio4/index_4.html">Ejercicio 4</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ejercicio5/index_5.html">Ejercicio 5</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+        <div class="row mt-3 justify-content-center">
+            <div class="col-12">
+                <h3 class="text-center mb-3">Ejercicio 1</h3>
+            </div>
+            <div class="col-9">
+                    <p>Ejercicio 1.- Realizar un script  permita mover en posiciones aleatorias una ventana secundaria: </p>
+                    <ul>
+                        <li>La ventana principal tendrá dos botones: Iniciar y Parar.</li>
+                        <li>El botón Iniciar, creará una ventana secundaria con el el mensaje "Ventana moviéndose".</li>
+                        <li>Esta ventana se irá moviendo aleatoriamente por toda la pantalla cada 3 segundos.</li>
+                        <li>El tamaño de la ventana será 200px X 200px.</li>
+                        <li>El botón Parar, parará el movimiento de la ventana secundaria y aparecerá en esta el siguiente mensaje: "Ventana parada"</li>
+                    </ul>
+            </div>  
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col text-center">
+                <button class="mybtn me-5" type="button" onclick="Abrir()">Iniciar</button>
+                <button class="mybtn" type="button" onclick="Parar()">Parar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+
+</body>
+
+
+</html>

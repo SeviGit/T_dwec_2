@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../recursos/mis_estilos.css">
+    <title>Tarea 02 DWEC</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h1 class="text-center mb-3">Desarrollo Web Entorno Cliente</h1>
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+                    <div class="container-fluid ">
+                        <div class="col-3" ><img class="rounded-3" src="../recursos/imagenes/DWEC.png" alt="Logo" width="90"></div>        
+                        <div class="col-9 collapse navbar-collapse show " id="navbarDark">
+                            <ul class="navbar-nav me-auto mb-2 mb-xl-0 ms-4">                             
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="../ejercicio1/index_1.html">Ejercicio 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ejercicio2/index_2.html">Ejercicio 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="../ejercicio3/index_3.html">Ejercicio 3</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ejercicio4/index_4.html">Ejercicio 4</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ejercicio5/index_5.html">Ejercicio 5</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row mt-3 justify-content-center">
+            <div class="col-12">
+                <h3 class="text-center mb-3">Ejercicio 3</h3>
+            </div>
+            <div class="col-10">
+                Ejercicio 3.- Crear un script que encripte una frase introducida por prompt(). Para codificar el texto
+                se emplea el siguiente proceso:
+                <ul>
+                    <li>La frase no debe tener menos de 4 palabras. Se utilizará un bucle para controlarlo y se mostrará
+                        un mensaje indicando el error.</li>
+                    <li>Convertir cada carácter (incluido blancos en su ASCII equivalente). Mostrar el resultado</li>
+                    <li>Generar un entero aleatorio entre 1 y 150.</li>
+                    <li>El nº aleatorio se suma a cada valor ASCII , el mismo valor se usa en todo el proceso, teniendo
+                        en cuenta:
+                        <ul>
+                            <li>Los valores N1 y N2 representan el valor menor (0) y mayor permitido en el código ASCII
+                                (255).</li>
+                            <li>Si el número obtenido en la suma del ASCII + el nº aleatorio, es mayor que N2, entonces
+                                en vez de sumar, se resta el ASCII - (N2/ 2). (mostrar el resultado).</li>
+                        </ul>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col text-center">
+                <button class="mybtn w-25 mb-4" onclick="pedir_fr()">Introducir frase</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <h3 class="text-center" id="par1"></h3>
+                <p id="par2"></p>
+                <p id="par3"></p>
+                <p id="par4"></p>
+                <p id="par5"></p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="script_3.js"></script>
+</body>
+
+</html>
